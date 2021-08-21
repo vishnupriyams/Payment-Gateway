@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#content {
+	height: 100%;
+	background: url("../img/background.png");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.particles-js-canvas-el {
+	position: absolute;
+}
+.text {
+	justify-content: left;
+	margin: 40px;
+	font-size: 20px;
+	color: black;
+	width: 50%;
+	margin-left: -20px;
+
+}
+.test .tsf { 
+    justify-content: left;
+	margin: 30px;
+	font-size: 20px;
+	color: black;
+	width: 40%;
+	margin-left: -30px;
+    padding-left: 4px;
+
+}
+
+nav {
+	width: 100%;
+	/* background: rgba(218,247,253,255); */
+	background:rgba(197, 26, 26, 0.69);
+	position: fixed;
+	top: 0;
+	height: 50px;
+}
+nav > h1 {
+	font-family: sans-serif;
+    color: black;
+    margin-left: 109px;
+    padding-bottom: 10px;
+    font-size: 19px;
+}
+
+form > h3 {
+	color: black;
+}
+form {
+	text-align: center;
+}
+footer {
+	width: 100%;
+	/* background: rgba(218,247,253,255); */
+	/* background: rgba(72,175,206,255); */
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-family: sans-serif;
+}
+footer > h5 {
+	color: #4d0000;
+	margin: 0px;
+	padding: 0.5%;
+}
